@@ -4,11 +4,9 @@ import time
 import argparse
 
 def synchronize_folders(source_folder, replica_folder, log_file):
-    # Implementujte synchronizaci složek zde
     pass
 
 def log_operations(log_file, operation, file_path):
-    # Zaznamenávejte operace do souboru
     with open(log_file, 'a') as log:
         log.write(f"{operation}: {file_path}\n")
 
